@@ -27,7 +27,7 @@ models:
               field: primary_city
 
   - name: aggregate_historical_features # features_sales_aggregate_expanded
-    description: Expandsion of aggregate orders table with a row for each date, shift, location, and menu item. 
+    description: Expansion of aggregate orders table with a row for each date, shift, location, and menu item. 
       This table is used to create rolling features for the past 7, 14, and 28 days.
 
   - name: demand_forecast_training_base 
